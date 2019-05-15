@@ -1,5 +1,5 @@
 # installing-new-rpi-from-scratch
-Installing New Raspberry PI From Scratch 
+Installing New Raspberry PI From Scratch from a Mac.
 
 ## Pi Filler
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads
