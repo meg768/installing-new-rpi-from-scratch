@@ -1,6 +1,14 @@
 # installing-new-rpi-from-scratch
 Installing New Raspberry PI From Scratch 
 
+## Pi Filler
+Use Pi Filler to create your image from https://www.raspberrypi.org/downloads
+
+## Add Files to Boot
+
+## LanScan (Pro)
+USe LanScan to find your
+
 ## Update Things
     $ sudo apt-get update && sudo apt-get dist-upgrade
 
@@ -21,3 +29,7 @@ Installing New Raspberry PI From Scratch
 
 ## Installing GIT
     $ sudo apt-get install git
+
+## Update Permissions for NPM
+    $ npm config set unsafe-perm true
+
