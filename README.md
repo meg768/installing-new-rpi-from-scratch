@@ -5,9 +5,10 @@ Installing New Raspberry PI From Scratch
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads
 
 ## Add Files to Boot
+Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 
 ## LanScan (Pro)
-USe LanScan to find your
+Use LanScan to find your Pi's IP-address.
 
 ## Update Things
     $ sudo apt-get update && sudo apt-get dist-upgrade
