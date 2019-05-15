@@ -32,5 +32,5 @@ Use LanScan to find your Pi's IP-address.
     $ sudo apt-get install git
 
 ## Update Permissions for NPM
-    $ npm config set unsafe-perm true
+    $ sudo npm config set unsafe-perm true
 
