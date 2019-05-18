@@ -19,10 +19,14 @@ Use LanScan to find your Pi's IP-address.
 - Name your Pi
 - Set the timezone
 - Make sure to expand the disk
+- Enable SSH
 
 ## Installing Node
     $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     $ sudo apt-get install -y nodejs
+
+## Uninstalling Node
+    $ sudo apt-get remove nodejs
 
 ## Node Versions
     $ sudo npm install -g n
