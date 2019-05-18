@@ -1,4 +1,5 @@
-# installing-new-rpi-from-scratch
+# Notes on Installing a New RPI from Scratch
+
 Installing New Raspberry PI From Scratch from a Mac.
 
 ## Use Pi Filler
@@ -42,5 +43,5 @@ Use LanScan to find your Pi's IP-address.
 ## Update Permissions for NPM
     $ sudo npm config set unsafe-perm true
 
-### Problem with Compilers Versions
+## Problem with Compilers Versions
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
