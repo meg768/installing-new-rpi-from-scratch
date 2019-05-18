@@ -44,6 +44,3 @@ Use LanScan to find your Pi's IP-address.
 
 ### Problems with Compilers
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
-sdfg
-sfdg
-sdfg
