@@ -1,6 +1,6 @@
 # Notes on Installing a New RPI from Scratch
 
-Installing New Raspberry PI From Scratch from a Mac.
+Installing New Raspberry PI From Scratch from a Mac. Notes from 2019-05-19.
 
 ## Use Pi Filler
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads.
