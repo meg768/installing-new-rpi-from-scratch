@@ -45,3 +45,4 @@ Use LanScan to find your Pi's IP-address.
 
 ## Problem with Compiler Versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
+- Pi Zero https://github.com/sdesalas/node-pi-zero
