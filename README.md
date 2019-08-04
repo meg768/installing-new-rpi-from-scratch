@@ -29,9 +29,10 @@ For Pi Model 3 the following may be used.
 ````bash
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install -y nodejs
-````bash
+````
 
 For Pi Zero, try this.
+
 ````bash
 wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | bash
 ````
