@@ -23,25 +23,47 @@ Use LanScan to find your Pi's IP-address.
 - Enable SSH
 
 ## Installing Node
-    $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-    $ sudo apt-get install -y nodejs
+
+For Pi Model 3 the following may be used.
+
+````bash
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install -y nodejs
+````bash
+
+For Pi Zero, try this.
+````bash
+wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | bash
+````
+
+See https://github.com/sdesalas/node-pi-zero for later versions.
 
 ## Uninstalling Node
-    $ sudo apt-get remove nodejs
+````bash
+sudo apt-get remove nodejs
+````
 
 ## Node Versions
-    $ sudo npm install -g n
-    $ sudo reboot
-    $ sudo n 11.0.0
+````bash
+sudo npm install -g n
+sudo reboot
+sudo n 11.0.0
+````
 
 ## Installing Essentials
-    $ sudo apt-get install build-essential
+````bash
+sudo apt-get install build-essential
+````
 
 ## Installing GIT
-    $ sudo apt-get install git
+````bash
+sudo apt-get install git
+````
 
 ## Update Permissions for NPM
-    $ sudo npm config set unsafe-perm true
+````bash
+sudo npm config set unsafe-perm true
+````
 
 ## Problem with Compiler Versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
