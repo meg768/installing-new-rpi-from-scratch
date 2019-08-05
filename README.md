@@ -13,12 +13,12 @@ Use LanScan to find your Pi's IP-address.
 
 ## Update Things
 ````bash
-    sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get update && sudo apt-get dist-upgrade
 ````
 
 ## Initial Setup
 ````bash
-    sudo raspi-config
+sudo raspi-config
 ````
 
 - Name your Pi
