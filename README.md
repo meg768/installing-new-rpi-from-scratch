@@ -12,10 +12,14 @@ Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 Use LanScan to find your Pi's IP-address.
 
 ## Update Things
-    $ sudo apt-get update && sudo apt-get dist-upgrade
+````bash
+    sudo apt-get update && sudo apt-get dist-upgrade
+````
 
 ## Initial Setup
-    $ sudo raspi-config
+````bash
+    sudo raspi-config
+````
 
 - Name your Pi
 - Set the timezone
@@ -68,4 +72,6 @@ sudo npm config set unsafe-perm true
 
 ## Problem with Compiler Versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
+
+## Links
 - Pi Zero https://github.com/sdesalas/node-pi-zero
