@@ -70,6 +70,11 @@ sudo apt-get install git
 sudo npm config set unsafe-perm true
 ````
 
+## Installing PM2
+````bash
+sudo npm install pm2 -g
+````
+
 ## Problem with Compiler Versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
 
