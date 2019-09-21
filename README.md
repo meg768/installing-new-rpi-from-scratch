@@ -57,12 +57,7 @@ sudo n 11.0.0
 
 ## Installing Essentials
 ````bash
-sudo apt-get install build-essential
-````
-
-## Installing GIT
-````bash
-sudo apt-get install git
+sudo apt-get install git build-essential
 ````
 
 ## Update Permissions for NPM
