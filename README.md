@@ -65,6 +65,11 @@ sudo apt-get install git build-essential
 sudo npm config set unsafe-perm true
 ````
 
+## Make GIT remember your username/password
+````bash
+git config --global credential.helper store
+````
+
 ## Installing PM2
 ````bash
 sudo npm install pm2 -g
