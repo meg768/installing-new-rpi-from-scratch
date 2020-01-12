@@ -69,7 +69,7 @@ n: /opt/nodejs/bin/n
 Create the symbolic link
 
 ````bash
-ln -s /opt/nodejs/bin/n usr/bin
+ln -s /opt/nodejs/bin/n usr/bin/n
 ````
 
 
