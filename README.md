@@ -98,7 +98,7 @@ sudo npm install pm2 -g
 ## Installing WordPress/MySQL/PHP
 See https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 
-## Remote root login
+## Enable remote root login
 See https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
 
 ## Problem with compiler versions?
