@@ -75,7 +75,7 @@ sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 
 ## Installing Essentials
 ````bash
-sudo apt-get install git build-essential
+sudo apt-get install git build-essential -y
 ````
 
 ## Update Permissions for NPM
