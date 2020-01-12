@@ -5,18 +5,18 @@ Installing New Raspberry PI From Scratch from a Mac. Notes from 2019-05-19.
 ## Use Pi Filler
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads.
 
-## Add Files to Boot
+## Add files to Boot
 Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 
 ## LanScan (Pro)
 Use LanScan to find your Pi's IP-address.
 
-## Update Things
+## Update things
 ````bash
 sudo apt-get update && sudo apt-get dist-upgrade
 ````
 
-## Initial Setup
+## Initial setup
 ````bash
 sudo raspi-config
 ````
@@ -48,7 +48,7 @@ See https://github.com/sdesalas/node-pi-zero for later versions.
 sudo apt-get remove nodejs
 ````
 
-## Node Versions
+## Node versions
 ````bash
 sudo npm install -g n
 sudo reboot
@@ -73,12 +73,12 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
-## Installing Essentials
+## Installing essentials
 ````bash
 sudo apt-get install git build-essential -y
 ````
 
-## Update Permissions for NPM
+## Update permissions for NPM
 ````bash
 sudo npm config set unsafe-perm true
 ````
@@ -94,7 +94,7 @@ sudo npm install pm2 -g
 ````
 
 
-## Problem with Compiler Versions?
+## Problem with compiler versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
 
 ## Links
