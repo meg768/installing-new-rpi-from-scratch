@@ -95,7 +95,7 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
-## INstalling Apache
+## Installing Apache
 ````bash
 sudo apt-get install apache2 -y
 ````
