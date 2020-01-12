@@ -5,7 +5,7 @@ Installing New Raspberry PI From Scratch from a Mac. Notes from 2019-05-19.
 ## Use Pi Filler
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads.
 
-## Add files to Boot
+## Add files to BOOT partition
 Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 
 ## LanScan (Pro)
