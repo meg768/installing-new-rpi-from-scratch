@@ -95,10 +95,9 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
-## Installing Apache
-````bash
-sudo apt-get install apache2 -y
-````
+## Installing WordPress
+See https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
+
 
 ## Problem with compiler versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
