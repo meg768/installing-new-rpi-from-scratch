@@ -95,7 +95,7 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
-## Installing WordPress
+## Installing WordPress/MySQL/PHP
 See https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 
 
