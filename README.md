@@ -55,7 +55,8 @@ sudo reboot
 sudo n 11.0.0
 ````
 
-### 'n' Not Working?
+If the **n** commmand does not work after reboot, make a symbolic link.
+
 ````bash
 whereis n
 ````
@@ -64,6 +65,13 @@ Reply will be something like
 ````bash
 n: /opt/nodejs/bin/n
 ````
+
+Create the symbolic link
+
+````bash
+n: /opt/nodejs/bin/n
+````
+
 
 #### Create a symbolik link
 
