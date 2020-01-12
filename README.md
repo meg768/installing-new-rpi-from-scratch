@@ -55,6 +55,20 @@ sudo reboot
 sudo n 11.0.0
 ````
 
+### 'n' Not Working?
+````bash
+whereis n
+````
+Reply will be something like 
+
+````bash
+n: /opt/nodejs/bin/n
+````
+
+#### Create a symbolik link
+
+
+
 ## Installing Essentials
 ````bash
 sudo apt-get install git build-essential
@@ -75,8 +89,10 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
+
 ## Problem with Compiler Versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
 
 ## Links
 - Pi Zero https://github.com/sdesalas/node-pi-zero
+- Installing WordPress https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress 
