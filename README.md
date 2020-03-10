@@ -15,7 +15,7 @@ Use LanScan to find your Pi's IP-address.
 
 ## Update things
 ````bash
-sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get update -y && sudo apt-get dist-upgrade -y
 ````
 
 ## Initial setup
