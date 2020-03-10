@@ -75,6 +75,11 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
+## Installing latest version of Node
+````bash
+sudo n latest
+````
+
 ## Installing essentials
 ````bash
 sudo apt-get install git build-essential -y
