@@ -57,9 +57,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ````
 
-For Pi Zero, try this.
-
-Try installing the latest version. 
+For Pi Zero, try this to install the latest version.
 
 ````bash
 wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.lts.sh | sudo bash
