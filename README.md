@@ -2,7 +2,7 @@
 
 Installing New Raspberry PI From Scratch from a Mac. Notes from 2019-05-19.
 
-- Updated 2020-01-12
+- Updated 2020-03-09
 
 ## Use Pi Filler
 Use Pi Filler to create your image from https://www.raspberrypi.org/downloads.
@@ -30,7 +30,7 @@ ssh pi@raspberry
 Once logged in to the Pi make sure to update some stuff.
 
 ````bash
-sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get update -y && sudo apt-get dist-upgrade -y
 ````
 
 ## Initial setup
@@ -48,7 +48,7 @@ sudo raspi-config
 For Pi Model 3 the following may be used.
 
 ````bash
-curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ````
 
@@ -88,6 +88,11 @@ Create the symbolic link
 
 ````bash
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
+````
+
+## Installing latest version of Node
+````bash
+sudo n latest
 ````
 
 ## Installing essentials
