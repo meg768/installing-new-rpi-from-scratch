@@ -13,7 +13,22 @@ Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 ## LanScan (Pro)
 Use LanScan to find your Pi's IP-address.
 
+## Connect to your Pi
+Start a terminal session on your mac and type
+````bash
+ssh pi@xxx.yyy.zzz.ttt
+````
+Where **xxx.yyy.zzz.ttt** is the IP-address of your Raspberry.
+
+If you are lucky this may work
+````bash
+ssh pi@raspberry
+````
+
+
 ## Update things
+Once logged in to the Pi make sure to update some stuff.
+
 ````bash
 sudo apt-get update && sudo apt-get dist-upgrade
 ````
