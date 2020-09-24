@@ -59,11 +59,13 @@ sudo apt-get install -y nodejs
 
 For Pi Zero, try this.
 
+Try installing the latest version. 
+
 ````bash
-wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v11.5.0.sh | sudo bash
+wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.lts.sh | sudo bash
 ````
 
-See https://github.com/sdesalas/node-pi-zero for later versions.
+See https://github.com/sdesalas/node-pi-zero for more information.
 
 ## Uninstalling Node
 ````bash
