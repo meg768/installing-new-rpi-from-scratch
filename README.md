@@ -74,6 +74,11 @@ sudo apt-get remove nodejs
 ````bash
 sudo npm install -g n
 sudo reboot
+````
+
+Connect again and type
+
+````bash
 sudo n 11.0.0
 ````
 
