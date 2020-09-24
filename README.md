@@ -25,6 +25,7 @@ If you are lucky this may work
 ssh pi@raspberry
 ````
 
+The default password is **raspberry**.
 
 ## Update things
 Once logged in to the Pi make sure to update some stuff.
@@ -32,6 +33,8 @@ Once logged in to the Pi make sure to update some stuff.
 ````bash
 sudo apt-get update -y && sudo apt-get dist-upgrade -y
 ````
+
+It may take a while.
 
 ## Initial setup
 ````bash
@@ -42,6 +45,8 @@ sudo raspi-config
 - Set the timezone
 - Make sure to expand the disk
 - Enable SSH
+
+Select **Finish** and reboot. After reboot connect again using **ssh**.
 
 ## Installing Node
 
