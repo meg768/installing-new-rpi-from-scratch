@@ -70,7 +70,7 @@ Select **Finish** and reboot. After reboot connect again using **ssh**.
 
 ## Node
 
-For Pi Model 3 the following may be used.
+For Pi Model 3 or 4 the following may be used.
 
 ````bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
