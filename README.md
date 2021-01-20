@@ -113,7 +113,7 @@ sudo npm config set unsafe-perm true
 sudo n latest
 ````
 
-## Installing GIT ans Essentials
+## Installing GIT and Build Essentials
 ````bash
 sudo apt-get install git build-essential -y
 ````
