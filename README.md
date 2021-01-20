@@ -13,7 +13,7 @@ Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
 ## LanScan (Pro)
 Use LanScan to find your Pi's IP-address.
 
-## Connect to your Pi
+## Connect to Your Pi
 Start a terminal session on your mac and type
 ````bash
 ssh pi@xxx.yyy.zzz.ttt
