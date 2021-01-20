@@ -167,10 +167,16 @@ Got an error when building at 83%. This seems to have solved it.
 Edit the file **CMakeLists.txt** and insert the following line at the beginning of the file.
 
 ````
+SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")
+````
+
+Insert the text as descibed below.
+
+````
 ...
 MESSAGE(STATUS "Running cmake version ${CMAKE_VERSION}")
 ...
-**SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")**
+SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")
 ...
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}
   ${CMAKE_SOURCE_DIR}/cmake ${CMAKE_SOURCE_DIR}/cmake/Internal/CPack)
