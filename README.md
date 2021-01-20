@@ -156,13 +156,13 @@ but skip the source code download instructions.
 
 
 ## Installing Mosquitto with WebSocket Support
-See https://xperimentia.com/2015/08/20/installing-mosquitto-mqtt-broker-on-raspberry-pi-with-websockets
+- https://xperimentia.com/2015/08/20/installing-mosquitto-mqtt-broker-on-raspberry-pi-with-websockets
 
 ## Installing WordPress/MySQL/PHP
-See https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
+- https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 
 ## Enable remote root login
-See https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
+- https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
 
 ## Problem with compiler versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
