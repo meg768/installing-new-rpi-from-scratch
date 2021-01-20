@@ -162,7 +162,7 @@ Now you have the entire source code under the directory **/mariadb/mariadb-10.3.
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
 but skip the source code download instructions. You already have the version you want in **/mariadb**.
 
-#### Build error
+#### Issues
 Got an error when building at 83%. This seems to have solved it.
 Edit the file **CMakeLists.txt** and insert the following line in the beginning of the file.
 
