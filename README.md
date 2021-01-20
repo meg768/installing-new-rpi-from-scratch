@@ -110,13 +110,12 @@ sudo npm config set unsafe-perm true
 sudo n latest
 ````
 
-## Installing essentials
+## Installing GIT ans Essentials
 ````bash
 sudo apt-get install git build-essential -y
 ````
 
-
-## Make GIT remember your username/password
+### Make GIT remember your username/password
 ````bash
 git config --global credential.helper store
 ````
@@ -141,8 +140,6 @@ tar xvf mariadb-10.3.14.tar.gz
 
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
 but skip the source code download instructions.
-
-
 
 ### Links
 - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi/
