@@ -51,6 +51,10 @@ sudo raspi-config
 
 Select **Finish** and reboot. After reboot connect again using **ssh**.
 
+### Enable remote root login
+- https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
+
+
 ## Node
 
 For Pi Model 3 the following may be used.
@@ -153,6 +157,7 @@ but skip the source code download instructions.
 - https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
 - https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0
 - https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
+- https://github.com/alexa/avs-device-sdk/issues/1404
 
 
 ## Installing Mosquitto with WebSocket Support
@@ -160,9 +165,6 @@ but skip the source code download instructions.
 
 ## Installing WordPress/MySQL/PHP
 - https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-
-## Enable remote root login
-- https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
 
 ## Problem with compiler versions?
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
