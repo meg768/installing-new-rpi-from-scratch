@@ -147,7 +147,7 @@ sudo npm install pm2 -g
 ## Installing MariaDB from Source Code (2021-01-20)
 
 Make sure you have the source code version of your choice. 
-In this case 10.3.14.
+In this case an older version 10.3.14.
 
 ### Download Source Code
 ````bash
@@ -162,6 +162,9 @@ Now you have the entire source code under the directory **/mariadb/mariadb-10.3.
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
 but skip the source code download instructions.
 
+#### Troubleshooting
+- https://github.com/alexa/avs-device-sdk/issues/1404
+
 ### Links
 - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi/
 - https://medium.com/better-programming/how-to-install-mysql-on-a-raspberry-pi-ad3f69b4a094
@@ -169,7 +172,6 @@ but skip the source code download instructions.
 - https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
 - https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0
 - https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
-- https://github.com/alexa/avs-device-sdk/issues/1404
 
 
 ## Installing Mosquitto with WebSocket Support
