@@ -125,12 +125,12 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
-## Installing MariaDB from Source Code
+## Installing MariaDB from Source Code (2021-01-20)
 
-Make sure you have
+Make sure you have the source code version of your choice. 
+In this case 10.3.14.
 
-### Downloading Source Code
-
+### Download Source Code
 ````bash
 sudo su
 mkdir /mariadb && cd /mariadb
@@ -138,6 +138,7 @@ wget https://archive.mariadb.org/mariadb-10.3.14/source/mariadb-10.3.14.tar.gz
 tar xvf mariadb-10.3.14.tar.gz
 ````
 
+### Compiling and Installation
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
 but skip the source code download instructions.
 
