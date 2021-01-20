@@ -160,7 +160,7 @@ Now you have the entire source code under the directory **/mariadb/mariadb-10.3.
 
 ### Compile and Install
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
-but skip the source code download instructions.
+but skip the source code download instructions. You already have the version you want in **/mariadb**.
 
 #### Troubleshooting
 - https://github.com/alexa/avs-device-sdk/issues/1404
