@@ -22,7 +22,7 @@ Where **xxx.yyy.zzz.ttt** is the IP-address of your Raspberry.
 
 If you are lucky this may work
 ````bash
-ssh pi@raspberry
+ssh pi@raspberrypi
 ````
 
 The default password is **raspberry**.
@@ -124,6 +124,28 @@ git config --global credential.helper store
 ````bash
 sudo npm install pm2 -g
 ````
+
+## Installing MariaDB from Source Code
+
+- http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi/
+- https://medium.com/better-programming/how-to-install-mysql-on-a-raspberry-pi-ad3f69b4a094
+- https://pimylifeup.com/raspberry-pi-mysql/
+- https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
+- https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0
+- https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
+
+### Downloading source code
+For a specific version try this
+
+````bash
+sudo su
+mkdir /mariadb && cd /mariadb
+wget https://archive.mariadb.org/mariadb-10.3.14/source/mariadb-10.3.14.tar.gz
+tar xvf mariadb-10.3.14.tar.gz
+````
+
+## Installing Mosquitto with WebSocket Support
+See https://xperimentia.com/2015/08/20/installing-mosquitto-mqtt-broker-on-raspberry-pi-with-websockets
 
 ## Installing WordPress/MySQL/PHP
 See https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
