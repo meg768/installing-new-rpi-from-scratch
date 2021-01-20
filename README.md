@@ -11,12 +11,16 @@ specified the WiFi name and your password. Also copy the
 empty file **ssh** to the boot partition. Then place the SD-card
 in the Raspberry Pi and plug in the power source.
 
+This is an example of the **wpa_supplicant.conf** file.
+Replace **my-wifi-network-name** with the name of
+your Wifi network name and **my-password** with your password.
+
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=GB
 
-network={
+network={ 
 	ssid="my-wifi-network-name"
 	psk="my-password"
 }
