@@ -17,10 +17,9 @@ update_config=1
 country=GB
 
 network={
-    ssid="my-wifi-network-name"
+	ssid="my-wifi-network-name"
 	psk="my-password"
 }
-
 ```
 ## Connect to your Pi
 
