@@ -27,8 +27,7 @@ network={
 ```
 ## Connect to your Pi
 
-### LanScan (Pro)
-Use LanScan to find your Pi's IP-address.
+Use LanScan (https://apps.apple.com/se/app/lanscan/id472226235?mt=12) to find your Pi's IP-address.
 
 Start a terminal session on your mac and type
 ````bash
