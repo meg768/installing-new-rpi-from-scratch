@@ -11,7 +11,17 @@ specified the WiFi name and your password. Also copy the
 empty file **ssh** to the boot partition. Then place the SD-card
 in the Raspberry Pi and plug in the power source.
 
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=GB
 
+network={
+    ssid="my-wifi-network-name"
+	psk="my-password"
+}
+
+```
 ## Connect to your Pi
 
 ### LanScan (Pro)
