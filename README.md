@@ -2,10 +2,10 @@
 
 Installing New Raspberry PI From Scratch from a Mac. Notes from 2019-05-19.
 
-- Updated 2020-09-24
+- Updated 2021-01-20
 
-## Use Pi Filler
-Use Pi Filler to create your image from https://www.raspberrypi.org/downloads.
+## Downloading Raspberry Image
+Go to https://www.raspberrypi.org/downloads. 
 
 ## Add files to BOOT partition
 Add **wpa_supplicant.conf** and **ssh** files to the boot partition.
@@ -48,7 +48,7 @@ sudo raspi-config
 
 Select **Finish** and reboot. After reboot connect again using **ssh**.
 
-## Installing Node
+## Node
 
 For Pi Model 3 the following may be used.
 
@@ -65,12 +65,12 @@ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install
 
 See https://github.com/sdesalas/node-pi-zero for more information.
 
-## Uninstalling Node
+### Uninstalling Node
 ````bash
 sudo apt-get remove nodejs
 ````
 
-## Node versions
+### Node versions
 ````bash
 sudo npm install -g n
 sudo reboot
@@ -100,7 +100,12 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
-## Installing latest version of Node
+### Update permissions for NPM
+````bash
+sudo npm config set unsafe-perm true
+````
+
+### Installing latest version of Node
 ````bash
 sudo n latest
 ````
@@ -110,10 +115,6 @@ sudo n latest
 sudo apt-get install git build-essential -y
 ````
 
-## Update permissions for NPM
-````bash
-sudo npm config set unsafe-perm true
-````
 
 ## Make GIT remember your username/password
 ````bash
@@ -126,6 +127,8 @@ sudo npm install pm2 -g
 ````
 
 ## Installing MariaDB from Source Code
+
+Make sure you have
 
 ### Downloading Source Code
 
