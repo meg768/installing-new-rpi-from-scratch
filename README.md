@@ -164,10 +164,14 @@ but skip the source code download instructions. You already have the version you
 
 #### Build error
 Got an error when building at 83%. This seems to have solved it.
-Edit the file **CMakeLists.txt** and insert the following line at the beginning.
+Edit the file **CMakeLists.txt** and insert the following line at the beginning of the file.
 
 ````
+...
+MESSAGE(STATUS "Running cmake version ${CMAKE_VERSION}")
+...
 SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")
+...
 ````
 See https://github.com/alexa/avs-device-sdk/issues/1404
 
