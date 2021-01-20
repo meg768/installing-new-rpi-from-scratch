@@ -3,7 +3,7 @@
 Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20.
 
 ## Downloading Raspberry image
-Go to https://www.raspberrypi.org/downloads. This will give you a bootable image on you SD-card.
+Go to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
 
 ## Add files to boot partition
 Add your modified version of **wpa_supplicant.conf** where you
