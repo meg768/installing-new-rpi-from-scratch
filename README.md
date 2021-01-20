@@ -140,6 +140,7 @@ mkdir /mariadb && cd /mariadb
 wget https://archive.mariadb.org/mariadb-10.3.14/source/mariadb-10.3.14.tar.gz
 tar xvf mariadb-10.3.14.tar.gz
 ````
+Now you have the entire source code under the directory /mariadb/mariadb-10.3.14
 
 ### Compile and Install
 Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
