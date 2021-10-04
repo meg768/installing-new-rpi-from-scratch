@@ -66,6 +66,8 @@ Select **Finish** and reboot. After reboot connect again using **ssh**.
 ### Enable remote root login
 - https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
 
+### Passwordless SSH access
+- https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 
 ## Node
 
@@ -143,6 +145,14 @@ git config --global credential.helper store
 ````bash
 sudo npm install pm2 -g
 ````
+## Installing MariaDB (2021-02-04)
+
+- https://howtoraspberrypi.com/mariadb-raspbian-raspberry-pi/
+- https://raspberrytips.com/install-mariadb-raspberry-pi/
+
+### Configuring MariaDB for remote access (2021-02-04)
+
+- https://raspberry-projects.com/pi/software_utilities/web-servers/mysql
 
 ## Installing MariaDB from Source Code (2021-01-20)
 
