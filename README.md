@@ -217,3 +217,10 @@ See https://github.com/alexa/avs-device-sdk/issues/1404
 ## Links
 - Pi Zero https://github.com/sdesalas/node-pi-zero
 - Installing WordPress https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress 
+
+## Short for installing on most node servers (2024-07-23)
+- sudo apt-get update -y && sudo apt-get dist-upgrade -y
+- sudo apt-get install nodejs npm git build-essential -y
+- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+- sudo npm install pm2 -g
+
