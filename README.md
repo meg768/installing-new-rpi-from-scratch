@@ -1,6 +1,9 @@
 # Notes on Installing a New RPI from Scratch
 
-Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20.
+Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20. Updated 2024-12-12.
+
+## Raspberry Pi Imager
+If using the Raspberry Pi Imager you may skip the following step.
 
 ## Downloading Raspberry image
 Go to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
@@ -71,20 +74,11 @@ Select **Finish** and reboot. After reboot connect again using **ssh**.
 
 ## Node
 
-For Pi Model 3 or 4 the following may be used.
+For Pi Model 3, 4 or Zero the following may be used.
 
 ````bash
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ````
-
-For Pi Zero, try this to install the latest version.
-
-````bash
-wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.lts.sh | sudo bash
-````
-
-See https://github.com/sdesalas/node-pi-zero for more information.
 
 ### Uninstalling Node
 ````bash
