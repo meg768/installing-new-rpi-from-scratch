@@ -55,6 +55,9 @@ sudo apt-get update -y && sudo apt-get dist-upgrade -y
 It may take a while.
 
 ### Initial setup
+
+If you have used the Raspberry Pi Imager this may already been set.
+
 ````bash
 sudo raspi-config
 ````
