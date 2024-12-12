@@ -8,7 +8,7 @@ If using the Raspberry Pi Imager you may skip the following step.
 ## Downloading Raspberry image
 Go to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
 
-## Add files to boot partition
+### Add files to boot partition
 Add your modified version of **wpa_supplicant.conf** where you
 specified the WiFi name and your password. Also copy the
 empty file **ssh** to the boot partition. Then place the SD-card
