@@ -6,7 +6,7 @@ Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20. Upda
 ## Downloading Raspberry image
 
 ### Raspberry Pi Imager
-If using the Raspberry Pi Imager you may skip the following step. Otherwise o to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
+If using the Raspberry Pi Imager you may skip the following step. Otherwise go to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
 
 
 ### Add files to boot partition
