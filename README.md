@@ -28,7 +28,7 @@ network={
 	psk="my-password"
 }
 ```
-## Connect to your Pi
+### Connect to your Pi
 
 Use LanScan (https://apps.apple.com/se/app/lanscan/id472226235?mt=12) to find your Pi's IP-address.
 Then start a terminal session on your mac and type
