@@ -76,17 +76,12 @@ Select **Finish** and reboot. After reboot connect again using **ssh**.
 ### Passwordless SSH access
 - https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 
-## Node
+## Node and build essentials
 
 For Pi Model 3, 4 or Zero the following may be used.
 
 ````bash
-sudo apt-get install -y nodejs
-````
-
-### Uninstalling Node
-````bash
-sudo apt-get remove nodejs
+sudo apt-get install nodejs npm git build-essential -y
 ````
 
 ### Node versions
@@ -127,11 +122,6 @@ sudo npm config set unsafe-perm true
 ### Installing latest version of Node
 ````bash
 sudo n latest
-````
-
-## Installing GIT and build essentials
-````bash
-sudo apt-get install git build-essential -y
 ````
 
 ### Make GIT remember your username/password
@@ -213,7 +203,6 @@ See https://github.com/alexa/avs-device-sdk/issues/1404
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
 
 ## Links
-- Pi Zero https://github.com/sdesalas/node-pi-zero
 - Installing WordPress https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress 
 
 ## Short for installing on most node servers (2024-07-23)
