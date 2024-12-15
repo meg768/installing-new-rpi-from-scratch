@@ -91,6 +91,20 @@ Follow the instrucions.
 sudo npm install pm2 -g
 ````
 
+### Install PM2 startup
+````bash
+sudo pm2 startup
+````
+### Install script
+````bash
+sudo pm2 start myscript.js -- [parameters]
+````
+
+### Save configuration
+````bash
+sudo pm2 save
+````
+
 ## Short for installing on most node servers (2024-07-23)
 - sudo apt-get update -y && sudo apt-get dist-upgrade -y
 - sudo apt-get install nodejs npm git build-essential -y
