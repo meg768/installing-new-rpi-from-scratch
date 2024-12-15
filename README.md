@@ -79,6 +79,13 @@ sudo n latest
 git config --global credential.helper store
 ````
 
+## Login with npm
+````bash
+npm login
+````
+
+Follow the instrucions.
+
 ## Installing PM2
 ````bash
 sudo npm install pm2 -g
