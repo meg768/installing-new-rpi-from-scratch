@@ -1,7 +1,6 @@
 # Notes on Installing a New RPI from Scratch
 
-Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20. Updated 2024-12-12.
-
+Installing new Raspberry Pi from scratch from a Mac. Notes from 2024-12-15.
 
 ## Downloading Raspberry image
 
@@ -31,12 +30,6 @@ sudo raspi-config
 - Enable SSH
 
 Select **Finish** and reboot. After reboot connect again using **ssh**.
-
-### Enable remote root login
-- https://raspberrypi.stackexchange.com/questions/48056/how-to-login-as-root-remotely
-
-### Passwordless SSH access
-- https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 
 ## Node and build essentials
 
