@@ -6,45 +6,7 @@ Installing new Raspberry Pi from scratch from a Mac. Notes from 2021-01-20. Upda
 ## Downloading Raspberry image
 
 ### Raspberry Pi Imager
-If using the Raspberry Pi Imager you may skip the following step. Otherwise go to https://www.raspberrypi.org/downloads. This will give you a bootable image on your SD-card.
-
-
-### Add files to boot partition
-Add your modified version of **wpa_supplicant.conf** where you
-specified the WiFi name and your password. Also copy the
-empty file **ssh** to the boot partition. Then place the SD-card
-in the Raspberry Pi and plug in the power source.
-
-This is an example of the **wpa_supplicant.conf** file.
-Replace **my-wifi-network-name** with the name of
-your Wifi network name and **my-password** with your password.
-
-```
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-update_config=1
-country=GB
-
-network={ 
-	ssid="my-wifi-network-name"
-	psk="my-password"
-}
-```
-### Connect to your Pi
-
-Use LanScan (https://apps.apple.com/se/app/lanscan/id472226235?mt=12) to find your Pi's IP-address.
-Then start a terminal session on your mac and type
-
-````bash
-ssh pi@xxx.yyy.zzz.ttt
-````
-Where **xxx.yyy.zzz.ttt** is the IP-address of your Raspberry.
-
-If you are lucky this may work
-````bash
-ssh pi@raspberrypi
-````
-
-The default password is **raspberry**.
+Use the Raspberry Pi Imager to create a bootable image on your SD-card.
 
 ### Update things
 Once logged in to the Pi make sure to update some stuff.
