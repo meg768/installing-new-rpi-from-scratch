@@ -84,26 +84,6 @@ git config --global credential.helper store
 sudo npm install pm2 -g
 ````
 
-### Links (my be old)
-- http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi/
-- https://medium.com/better-programming/how-to-install-mysql-on-a-raspberry-pi-ad3f69b4a094
-- https://pimylifeup.com/raspberry-pi-mysql/
-- https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
-- https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0
-- https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
-
-## Installing Mosquitto with WebSocket Support (my be old)
-- https://xperimentia.com/2015/08/20/installing-mosquitto-mqtt-broker-on-raspberry-pi-with-websockets
-
-## Installing WordPress/MySQL/PHP (my be old)
-- https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-
-## Problem with compiler versions? (my be old)
-- Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
-
-## Links (my be old)
-- Installing WordPress https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress 
-
 ## Short for installing on most node servers (2024-07-23)
 - sudo apt-get update -y && sudo apt-get dist-upgrade -y
 - sudo apt-get install nodejs npm git build-essential -y
