@@ -69,12 +69,12 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
-## Installing latest version of Node
+### Installing latest version of Node
 ````bash
 sudo n latest
 ````
 
-### Make GIT remember your username/password
+## Make GIT remember your username/password
 ````bash
 git config --global credential.helper store
 ````
