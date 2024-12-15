@@ -69,11 +69,6 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
-### Update permissions for NPM
-````bash
-sudo npm config set unsafe-perm true
-````
-
 ### Installing latest version of Node
 ````bash
 sudo n latest
@@ -88,58 +83,8 @@ git config --global credential.helper store
 ````bash
 sudo npm install pm2 -g
 ````
-## Installing MariaDB (2021-02-04)
 
-- https://howtoraspberrypi.com/mariadb-raspbian-raspberry-pi/
-- https://raspberrytips.com/install-mariadb-raspberry-pi/
-
-### Configuring MariaDB for remote access (2021-02-04)
-
-- https://raspberry-projects.com/pi/software_utilities/web-servers/mysql
-
-## Installing MariaDB from Source Code (2021-01-20)
-
-Make sure you have the source code version of your choice. 
-In this case an older version 10.3.14.
-
-### Download Source Code
-````bash
-sudo su
-mkdir /mariadb && cd /mariadb
-wget https://archive.mariadb.org/mariadb-10.3.14/source/mariadb-10.3.14.tar.gz
-tar xvf mariadb-10.3.14.tar.gz
-````
-Now you have the entire source code under the directory **/mariadb/mariadb-10.3.14**.
-
-### Compile and Install
-Follow the instructions here - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi
-but skip the source code download instructions. You already have the version you want in **/mariadb**.
-
-#### Issues
-Got an error when building at 83%. This seems to have solved it.
-Edit the file **CMakeLists.txt** and insert the following line near the beginning of the file.
-
-````
-SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")
-````
-
-Insert the text as descibed below.
-
-````
-...
-MESSAGE(STATUS "Running cmake version ${CMAKE_VERSION}")
-...
-SET(CMAKE_CXX_LINK_FLAGS "${CMAKE_CXX_LINK_FLAGS} -latomic")
-...
-SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}
-  ${CMAKE_SOURCE_DIR}/cmake ${CMAKE_SOURCE_DIR}/cmake/Internal/CPack)
-...
-
-````
-See https://github.com/alexa/avs-device-sdk/issues/1404
-
-
-### Links
+### Links (my be old)
 - http://pgeorgiev.com/compiling-and-installing-mariadb-on-raspberry-pi/
 - https://medium.com/better-programming/how-to-install-mysql-on-a-raspberry-pi-ad3f69b4a094
 - https://pimylifeup.com/raspberry-pi-mysql/
@@ -147,17 +92,16 @@ See https://github.com/alexa/avs-device-sdk/issues/1404
 - https://stackoverflow.com/questions/50177216/how-to-grant-all-privileges-to-root-user-in-mysql-8-0
 - https://websiteforstudents.com/configure-remote-access-mysql-mariadb-databases/
 
-
-## Installing Mosquitto with WebSocket Support
+## Installing Mosquitto with WebSocket Support (my be old)
 - https://xperimentia.com/2015/08/20/installing-mosquitto-mqtt-broker-on-raspberry-pi-with-websockets
 
-## Installing WordPress/MySQL/PHP
+## Installing WordPress/MySQL/PHP (my be old)
 - https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 
-## Problem with compiler versions?
+## Problem with compiler versions? (my be old)
 - Check out https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
 
-## Links
+## Links (my be old)
 - Installing WordPress https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress 
 
 ## Short for installing on most node servers (2024-07-23)
