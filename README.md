@@ -69,7 +69,7 @@ Create the symbolic link
 sudo ln -s /opt/nodejs/bin/n /usr/bin/n
 ````
 
-### Installing latest version of Node
+## Installing latest version of Node
 ````bash
 sudo n latest
 ````
