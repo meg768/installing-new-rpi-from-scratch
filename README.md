@@ -91,7 +91,7 @@ Follow the instrucions.
 sudo npm install pm2 -g
 ````
 
-### Install PM2 startup
+### Install startup
 ````bash
 sudo pm2 startup
 ````
