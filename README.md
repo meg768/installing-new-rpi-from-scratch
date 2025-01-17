@@ -105,7 +105,7 @@ sudo pm2 start myscript.js -- [parameters]
 sudo pm2 save
 ````
 
-### Remote login as root
+## Remote login as root
 
 Set a password for root user.
 
