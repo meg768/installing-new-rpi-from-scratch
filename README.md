@@ -105,6 +105,30 @@ sudo pm2 start myscript.js -- [parameters]
 sudo pm2 save
 ````
 
+### Remote login as root
+
+Set a password for root user.
+
+````bash
+sudo passwd root
+````
+
+Edit file **/etc/ssh/sshd_config**.
+
+````bash
+sudo nano /etc/ssh/sshd_config
+````
+
+Find entry **PermitRootLogin** and change parameter to **yes* and the reboot. 
+The line should look like this.
+
+````bash
+PermitRootLogin yes
+````
+
+
+
+
 ## Short for installing on most node servers (2024-07-23)
 - sudo apt-get update -y && sudo apt-get dist-upgrade -y
 - sudo apt-get install nodejs npm git build-essential -y
