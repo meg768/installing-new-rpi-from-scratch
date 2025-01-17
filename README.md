@@ -119,7 +119,7 @@ Edit file **/etc/ssh/sshd_config**.
 sudo nano /etc/ssh/sshd_config
 ````
 
-Find entry **PermitRootLogin** and change parameter to **yes* and the reboot. 
+Find entry **PermitRootLogin** and change parameter to **yes** and the reboot. 
 The line should look like this.
 
 ````bash
