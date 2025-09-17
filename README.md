@@ -1,6 +1,6 @@
 # Notes on Installing a New RPI from Scratch
 
-Installing new Raspberry Pi from scratch from a Mac. Notes from 2024-12-15.
+Installing new Raspberry Pi from scratch from a Mac. Notes from 2025-09-17.
 
 ## Downloading Raspberry image
 
@@ -15,21 +15,6 @@ sudo apt-get update -y && sudo apt-get dist-upgrade -y
 ````
 
 It may take a while.
-
-### Initial setup
-
-If you have used the Raspberry Pi Imager this may already been set.
-
-````bash
-sudo raspi-config
-````
-
-- Name your Pi
-- Set the timezone
-- Make sure to expand the disk
-- Enable SSH
-
-Select **Finish** and reboot. After reboot connect again using **ssh**.
 
 ## Node and build essentials
 
